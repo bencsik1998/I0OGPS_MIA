@@ -13,7 +13,7 @@ class Calculator:
             raise ValueError("Cannot divide by zero")
         return x / y
 
-     def power(self, x, y):
+    def power(self, x, y):
         return x ** y
 
     def square_root(self, x):
